@@ -1,0 +1,17 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+1. Download the software package and signature file:
+
+    https://ftp.gnu.org/non-gnu/cvs/binary/stable/x86-woe/cvs-1-11-22.zip
+    https://ftp.gnu.org/non-gnu/cvs/binary/stable/x86-woe/cvs-1-11-22.zip.sig
+
+2. Verify the contents of the downloaded package:
+
+    gpg --verify cvs-1-11-22.zip.sig
+
+3. Extract the archive and generate a hash of the `cvs.exe` executable
+    (e.g. `Get-FileHash .\cvs.exe`)
+
+   sha256sum: 3d19175a9bc35e54a23709ade2159a40c1d1a9f5483097340cce719e6510217e
