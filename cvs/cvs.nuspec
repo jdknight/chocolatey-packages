@@ -11,10 +11,8 @@
     <tags>cvs vcs version-control cli</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>CVS for Windows offers a native tool to help interact with CVS revision control systems on Windows</summary>
-    <description><![CDATA[CVS is a version control system, an important
-component of Source Configuration Management (SCM). Using it, you can record
-the history of sources files, and documents. It fills a similar role to the
-free software RCS, PRCS, and Aegis packages.
+    <description><![CDATA[
+CVS is a version control system, an important component of Source Configuration Management (SCM). Using it, you can record the history of sources files, and documents. It fills a similar role to the free software RCS, PRCS, and Aegis packages.
 ]]></description>
   </metadata>
   <files>
